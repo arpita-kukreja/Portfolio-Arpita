@@ -369,6 +369,12 @@ section{
     padding: 75px 90px;
     margin-left: 120px;
 }
+@media (width < 750) {
+  .container1{
+    margin-left: 0px;
+  }
+  
+}
 .sub-title{
     text-align: center;
     justify-content: center;
