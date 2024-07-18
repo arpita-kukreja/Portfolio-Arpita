@@ -86,6 +86,9 @@ ul li a:hover {
   border-bottom-color: var(--secondary-color);
   color: var(--secondary-color);
 }
+main{
+  background-color: #eaee9382;
+}
 section{
   padding: 68px 1px;
   margin-top: 68px;
@@ -221,7 +224,8 @@ section{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 10px;
 }
 
@@ -305,7 +309,14 @@ section{
 .skills{
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
 
+}
+.container1{
+  width: 649px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 @keyframes slideRight {
   0% {
@@ -360,21 +371,22 @@ section{
   margin-right: 50px;
 }
 
-
-
-
-.container1{
-    width: 600px;
-    height: 500px;
-    padding: 75px 90px;
-    margin-left: 120px;
-}
-@media (width < 750) {
-  .container1{
-    margin-left: 0px;
+@media (width < 750px){
+  .radial-bars
+  {
+      width: 100%;
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 10px;
   }
-  
+  .container1{
+    width: 195px;
+  }
 }
+
 .sub-title{
     text-align: center;
     justify-content: center;
