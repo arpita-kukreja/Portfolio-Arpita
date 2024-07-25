@@ -184,6 +184,7 @@ section{
     flex-direction: column;
     justify-content: center;
     gap: 3rem;
+    height: 400px;
   }
 
   nav #check:checked ~ ul {
@@ -518,6 +519,9 @@ section{
     background-color: #121212;
     overflow: hidden;
     position: relative;
+    border: 5px solid rgb(240, 207, 21);
+    border-radius: 32px;
+
   }
   .ag-courses-item_link:hover,
   .ag-courses-item_link:hover .ag-courses-item_date {
@@ -626,6 +630,8 @@ section{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 20px;
     padding: 20px;
+    border: 4px solid black;
+    border-radius: 15px;
 }
 
 .project img {
